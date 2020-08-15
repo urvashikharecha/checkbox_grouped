@@ -422,7 +422,7 @@ class _TitleGroupedCheckbox extends StatelessWidget {
           style: TextStyle(
             fontSize: 15,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Colors.indigo,
           ),
         ),
         onTap: () {
