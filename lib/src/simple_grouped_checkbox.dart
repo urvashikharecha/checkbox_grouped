@@ -432,7 +432,7 @@ class _TitleGroupedCheckbox extends StatelessWidget {
           child: Container(
             width: 32,
             height: 32,
-            child: checkboxTitle,
+            child: Text(''),
           ),
         ),
       );
@@ -443,7 +443,7 @@ class _TitleGroupedCheckbox extends StatelessWidget {
         style: TextStyle(
           fontSize: 15,
           fontWeight: FontWeight.bold,
-          color: Colors.black,
+          color: Colors.indigo,
         ),
       );
 
