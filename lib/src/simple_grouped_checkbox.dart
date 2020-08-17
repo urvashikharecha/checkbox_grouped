@@ -424,4 +424,5 @@ class _TitleGroupedCheckbox extends StatelessWidget {
           color: Colors.indigo,
         ),
       );
+  }
 }
