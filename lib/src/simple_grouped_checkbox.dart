@@ -415,38 +415,13 @@ class _TitleGroupedCheckbox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (isMultiSelection && title != null) {
-      return ListTile(
-        title: Text(
-          title,
-          style: TextStyle(
-            fontSize: 15,
-            fontWeight: FontWeight.bold,
-            color: Colors.indigo,
-          ),
-        ),
-        onTap: () {
-          callback();
-        },
-        leading: AbsorbPointer(
-          child: Container(
-            width: 32,
-            height: 32,
-            child: Text(''),
-          ),
-        ),
-      );
-    }
-    if (title != null)
-      return Text(
+     return Text(
         title,
+       textAlign: TextAlign.left,
         style: TextStyle(
           fontSize: 15,
           fontWeight: FontWeight.bold,
           color: Colors.indigo,
         ),
       );
-
-    return Container();
-  }
 }
